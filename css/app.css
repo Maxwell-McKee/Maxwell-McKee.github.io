@@ -1,0 +1,75 @@
+
+
+html, body {
+  margin: 0;
+  padding: 0.5rem;
+}
+
+body {
+  font-family: verdana;
+  font-size: 1rem;
+  background: #fff;
+  white-space: nospace;
+  height: 1000px;
+  background-image: url("bg.jpg");
+}
+
+div {
+  
+}
+
+.buttonInner {
+  color: #C8C8C8;
+  font-weight: bold;
+  font-size: 1.8vw;
+  text-align: center;
+  transform: translateY(-50%);
+  display: block;
+}
+
+.buttonOuter {
+  width: 15%;
+  border: 1px solid #C8C8C8;
+  height: 45%;
+  border-radius: 10px;
+  background-color: #000000;
+  margin: 4% 2% 0px 2%;
+  display: inline-block;
+  text-decoration: none;
+  outline: none;
+}
+
+#buttonBar{
+  height: 55%;
+  margin: 5px;
+  display: block;
+}
+
+.center {
+  text-align: center; 
+}
+
+#titlebar {
+  margin: auto;
+  background-size: auto;
+  width: 100%;
+  height: 20%;
+  font-size: 1rem;
+}
+
+#titleBackground {
+  background-color: #606060;
+  width: 100%;
+  height: 100%;
+  top: -100%;
+  opacity: 0.5;
+  position: relative;
+  z-index: -1;
+}
+
+#titlebar h1, h2, h3{
+  position: relative;
+  top: 5px;
+  margin: 5px;
+  color: #E6E6E6;
+}
