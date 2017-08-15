@@ -1,38 +1,101 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Home</title>
-        <meta name="description" content="A privileged app stub">
 
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="css/app.css">
-        <script type="text/javascript" src="js/app.js" defer></script>
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <meta name="description" content="A privileged app stub">
 
-        <!--
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/app.css">
+    <script type="text/javascript" src="js/app.js" defer></script>
+
+    <!--
         The following two lines are for loading the localisations library
         and the localisation data-so people can use the app in their
         own language (as long as you provide translations).
         -->
-        
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/jquery.color-2.1.2.js"></script>
-        <script type="text/javascript" src="js/app.js"></script>
-    </head>
-    <body>
-        
-        <!--Title bar-->
-        <div id="titlebar" class="center">
-            <h1> Maxwell McKee </h1>
-            <h2>Computer Science student at Gonzaga University</h2>
-            <div id="buttonBar">
-                <a class="buttonOuter" href="index.html"><p class="buttonInner">Home</p></a>
-                <a class="buttonOuter" href="coursework.html"><p class="buttonInner">Coursework</p></a>
-                <a class="buttonOuter" href="projects.html"><p class="buttonInner">Projects</p></a>
-                <a class="buttonOuter" href="contact.html"><p class="buttonInner">Contact</p></a>
-               
-            </div>
-            <div id="titleBackground"></div>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.color-2.1.2.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</head>
+
+<body>
+
+    <!--Title bar-->
+    <div id="titleBackground"></div>
+    <div id="titlebar" class="center">
+        <h1> Maxwell McKee </h1>
+        <h2>Computer Science student at Gonzaga University</h2>
+        <div id="buttonBar">
+            <a class="buttonOuter" href="index.html">
+                <p class="buttonInner">Home</p>
+            </a>
+            <a class="buttonOuter" href="coursework.html">
+                <p class="buttonInner">Coursework</p>
+            </a>
+            <a class="buttonOuter" href="projects.html">
+                <p class="buttonInner">Projects</p>
+            </a>
+            <a class="buttonOuter" href="contact.html">
+                <p class="buttonInner">Contact</p>
+            </a>
+
         </div>
-    </body>
+    </div>
+
+    <!-- About section-->
+    <div id="aboutBody">
+        <div id="bodyBackground"></div>
+        <div id="contents">
+            <h1>About Me</h1>
+
+            <div id="skillsContainer">
+                <div class="skills">
+                    <h2>Programming Languages</h2>
+                    <ul>
+                        <li>Java (3 years)</li>
+                        <li>C++ (2 years)</li>
+                        <li>C# (2 years)</li>
+                        <li>Python (1 year)</li>
+                        <li>HTML, CSS, JavaScript (1 year)</li>
+                    </ul>
+                </div>
+
+                <div class="skills">
+                    <h2>Technologies</h2>
+                    <ul>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>JUnit</li>
+                        <li>OpenGL</li>
+                        <li>jQuery</li>
+                    </ul>
+                </div>
+
+                <div class="skills">
+                    <h2>Environments</h2>
+                    <ul>
+                        <li>Windows</li>
+                        <li>macOS</li>
+                        <li>Bash</li>
+                        <li>Eclipse</li>
+                        <li>Visual Studio</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2>Bio</h2>
+            <p>
+                My name is Maxwell McKee. I was born and raised in Washington State and grew up with a close connection to computers. I am a junior at Gonzaga university pursuing a B.S. in Computer Science with minors in German and Mathematics. Solving problems motivates
+                me like nothing else, and I see every challenge as an opprotunity for growth. I can spend hours focused on a problem for that moment of clarity when the problem is solved. In my free time I enjoy playing video games, hiking, biking, and
+                learning new skills. I hope to work for a time in the video game industry, or one day publish my own independant game. I am extremely self motivated and approach every situation and I work hard to accomplish tasks set before me.
+            </p>
+        </div>
+
+    </div>
+
+</body>
+
 </html>
