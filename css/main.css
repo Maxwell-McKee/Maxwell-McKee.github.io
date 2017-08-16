@@ -1,4 +1,5 @@
 html {
+    min-width: width;
     display: flex;
     justify-content: center;
 }
