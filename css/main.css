@@ -6,8 +6,8 @@ html {
 
 body {
     font-family: verdana;
+    transform-origin: 50% 0 0;
     transform: scale(1.0);
-    transform-origin: 0 0 0;
     font-size: 1rem;
     background: #000;
     white-space: nowrap;
@@ -16,6 +16,7 @@ body {
     background-position-y: -300px;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 div {}

@@ -8,15 +8,7 @@ $(document).ready(function() {
     }
     var scaleString = "scale(" + scale + ")";
 
-    if (scale >= 1) {
-        var pct = (scale - 1) * 200 + 10;
-    } else {
-        var pct = scale * 50 + 5;
-    }
-    var pctString = pct.toString() + "% 0 0";
-
     $("body").css("transform", scaleString);
-    $("body").css("transform-origin", pctString); 
 
     var htmlMinWidth = $("body").width() * scale;   
     $("html").css("min-width", htmlMinWidth + "px");
