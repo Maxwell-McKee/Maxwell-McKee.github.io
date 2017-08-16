@@ -1,14 +1,16 @@
-html,
-body {
-    margin: 0;
-    padding: 0.5rem 0.6rem;
+html {
+    display: flex;
+    justify-content: center;
 }
 
 body {
     font-family: verdana;
+    transform: scale(1.0);
+    transform-origin: 0 0 0;
     font-size: 1rem;
     background: #000;
     white-space: nowrap;
+    padding: 0.5rem 0.6rem;
     background-image: url("bg1.jpg");
     background-position-y: -300px;
     background-repeat: no-repeat;
@@ -57,6 +59,7 @@ div {}
     width: 1330px;
     height: 200px;
     font-size: 1rem;
+    position: relative;
 }
 
 #titleBackground {
