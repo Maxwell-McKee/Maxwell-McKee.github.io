@@ -1,0 +1,94 @@
+.coursePost {
+    width: 1300px;
+    height: 250px;
+    border-left: 10px solid #374049;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.bodyBackground {
+    width: 930px;
+}
+
+.coursePost img {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+}
+
+.contents * {
+    margin: 0.5rem;
+}
+
+.contents {
+    display: inline-block;
+    left: 250px;
+    width: 670px;
+    padding-left: 0;
+}
+
+.contents>h2 {
+    font-size: 2rem;
+    white-space: pre-wrap;
+    width: 480px;
+    height: 4rem;
+    line-height: 2rem;
+}
+
+.contents>h2>br {
+    margin: 0;
+    content: " ";
+}
+
+.contents>h3 {
+    position: absolute;
+    right: 0;
+    top: 2rem;
+    font-size: 1.5rem;
+}
+
+.contents p {
+    font-size: 1.2rem;
+    color: #374049;
+    border-top: 2px solid black;
+    white-space: normal;
+}
+
+.skillsBackground {
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 100%;
+    opacity: 0.7;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.skills {
+    position: absolute;
+    top: 0;
+    left: 960px;
+}
+
+.skills h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
+}
+
+.skills ul,
+.skills p {
+    margin: 0.1rem 0;
+    border: 1px dashed white;
+    list-style-type: square;
+    color: #374049;
+    font-size: 1.2rem;
+    white-space: normal;
+}
+
+.skills>ul>ul {
+    list-style-type: disc;
+}
