@@ -51,9 +51,14 @@
 
 .contents p {
     font-size: 1.2rem;
+    line-height: 1.45rem;
     color: #374049;
     border-top: 2px solid black;
     white-space: normal;
+}
+
+.contents a {
+    text-decoration: none;
 }
 
 .skillsBackground {
@@ -82,11 +87,14 @@
 .skills ul,
 .skills p {
     margin: 0.1rem 0;
-    border: 1px dashed white;
     list-style-type: square;
     color: #374049;
     font-size: 1.2rem;
     white-space: normal;
+}
+
+.skills ul {
+    padding-left: 2rem;
 }
 
 .skills>ul>ul {
