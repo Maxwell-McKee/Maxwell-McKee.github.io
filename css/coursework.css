@@ -1,5 +1,5 @@
 .coursePost {
-    width: 1300px;
+    width: 1320px;
     height: 250px;
     border-left: 10px solid #374049;
     margin-top: 1rem;
@@ -66,7 +66,6 @@
     width: 350px;
     height: 100%;
     opacity: 0.7;
-    display: inline-block;
     position: absolute;
     right: 0;
     top: 0;
@@ -76,7 +75,7 @@
 .skills {
     position: absolute;
     top: 0;
-    left: 960px;
+    left: 980px;
 }
 
 .skills h2 {

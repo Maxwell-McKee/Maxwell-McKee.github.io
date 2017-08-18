@@ -1,0 +1,97 @@
+#contactBody {
+    position: relative;
+    width: 700px;
+    height: 510px;
+    margin-top: 0.5rem;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.contents {
+    width: 97.5%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    padding: 0 0.5rem;
+}
+
+.contents h1 {
+    margin: 0.5rem 0 0.3rem 0;
+    padding-bottom: 0.2rem;
+    border-bottom: 1px solid black;
+    font-size: 2.2rem;
+}
+
+.contents h2 {
+     margin: 0.3rem;
+}
+
+.contents p{
+    color: #374049;
+    white-space: normal;
+    margin: 0.5rem 0.3rem;
+}
+
+.contents ul {
+    margin: 0;
+    list-style-type: square;
+    color: #374049;
+    white-space: normal;
+}
+
+#contactInfo>h2>a {
+    color: #374049;
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+#contactInfo p, 
+#contactInfo h2 {
+    margin: 0.2rem 1rem;   
+}
+
+#contactInfo>h2>a {
+    text-decoration-style: dotted;
+}
+
+#contactInfo>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end; 
+    margin: 1.5rem 0;
+}
+
+#contactInfo>div>a{
+    text-align: center;
+    text-decoration: none;
+    color: #374049;
+}
+
+#contactInfo>div>a>h3{
+    margin: 0.2rem;
+}
+
+.squareLink {
+    width: 150px;
+}
+
+#resume {
+    width: 200px;
+}
+
+.footnote {
+    font-size: 1rem;
+    position: absolute;
+    left: 1rem;
+    bottom: 0;
+    text-indent: -0.55rem;
+}
+
+#aboutSite {
+    width: 594px;
+    height: 510px;
+    margin-left: 30px;
+    position: relative;
+    display: inline-block;
+}
+
