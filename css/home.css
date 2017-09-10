@@ -6,6 +6,14 @@
     margin-bottom: 0px;
 }
 
+#aboutBody>img {
+    position: absolute;
+    top: 2.5%;
+    bottom: 2.5%;
+    right: 1%;
+    height: 95%
+}
+
 .contents {
     width: 70%;
     height: 100%;
