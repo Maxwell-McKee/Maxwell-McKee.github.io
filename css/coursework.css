@@ -29,17 +29,18 @@
     padding-left: 0;
 }
 
-.contents>h2 {
+.contents>h2,
+.contents>a{
     font-size: 2rem;
     white-space: pre-wrap;
     width: 480px;
-    height: 4rem;
     line-height: 2rem;
 }
 
-.contents>h2>br {
-    margin: 0;
-    content: " ";
+.contents>a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none; 
 }
 
 .contents>h3 {
@@ -55,10 +56,13 @@
     color: #374049;
     border-top: 2px solid black;
     white-space: normal;
+    position: absolute;
+    top: 4.5rem;
 }
 
-.contents a {
-    text-decoration: none;
+.contents>p>a {
+    text-decoration-style: dotted;
+    color: black;
 }
 
 .skillsBackground {

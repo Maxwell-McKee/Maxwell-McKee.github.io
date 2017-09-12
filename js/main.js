@@ -1,16 +1,23 @@
-$(document).ready(function() {
-    console.log("Ready!");
+/*
+ * Author: Maxwell McKee
+ * Last updated 9/11/17
+ * TODO: Fix scaling to not be scripted
+ *       Remove jQuery dependencies where possible
+ */
 
-    if (screen.height > 912.0) {
-        var scale = screen.height/912.0;
+$(document).ready(function() {
+    console.log("Ready");
+
+    if (screen.height >= 912.0) {
+        var scale = screen.height / 912.0;
     } else {
-        var scale = screen.height/912.0 + 0.15;
+        var scale = screen.height / 912.0 + 0.15;
     }
     var scaleString = "scale(" + scale + ")";
 
     $("body").css("transform", scaleString);
 
-    var htmlMinWidth = $("body").width() * scale;   
+    var htmlMinWidth = $("body").width() * scale;
     $("html").css("min-width", htmlMinWidth + "px");
 
     $(".buttonOuter").hover(function() {
