@@ -1,8 +1,7 @@
 /*
  * Author: Maxwell McKee
  * Last updated 9/11/17
- * TODO: Fix scaling to not be scripted
- *       Remove jQuery dependencies where possible
+ * TODO: Rework comepletely with AngularJS and Bootstrap
  */
 
 $(document).ready(function() {
